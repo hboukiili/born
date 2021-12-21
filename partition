@@ -1,0 +1,25 @@
+Types of partitions = Dynamic && basic.
+
+Basic = 1 primary partition. +++++;
+______________________________
+Mbr = master boot record.
+_____________________________________________
+Gpt = guide(global unique identifier)partition Table.
+Cyclic redundancy check.
++128 partitions;
+____________________________________________________
+Demarrage d’un ordinateur (bios functions);
+———————————————
+1- lorsque on clique sur le bouton power 
+2- le démarrage du programme de boot
+* Check is everything is okey (hdd - ram - system d’exploitation - les peripheriques)
+* Le lancement du OS.
+* // boot loader. (Ou cas ou y’as plusieurs os); 
+3- demarage du OS.
+_____________________
+Lvm = logical volume manager.
+RAID 0 = Stripes = kaykteb fkula disc chwya; // you can’t add just one disc. || contamination +++ discs.
+RAID 1 = mirror = kaykteb fjuje dles discs nefsse data; // you need to add 2 discs.
+RAID5 = kaykteb fjuje dles discs w wtalta kaydire feta priority, // need 3 discs.
+________________________
+Pv + Pv + Pv = Vg (volume group) = logical volume.
